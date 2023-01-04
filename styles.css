@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+*{
+padding: 0;
+margin:0;
+box-sizing: border-box;
+font-family: 'Work Sans',sans-serif;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+
+  body {
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 5%;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+  }
+  nav ul li{
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+    color: aqua;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.9rem;
+    max-width: 1100px;
+    margin: 2rem auto -6rem;
+ height: 700px;
+  }
+.col1{
+
+ text-align: left; 
+  
+}
+.col2{
+    text-align: right;
+    
+
+  }
+
+
+
+#head1{
+  animation-name: change-color;
+  animation-duration: 8s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+
+
+font-size:100px;
+margin: 0px;
+padding: 15px 3px;
+
+}
+
+.arrow{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 60px;
+  height: 0px;
+  left: 564px;
+  top: 600px;
+  
+  border: 1px solid #FFFFFF;
+  border-radius: 80px;
+  transform: rotate(90deg);
+
+
+}
+
+@keyframes change-color {
+  25% {
+    color: #00A4BD;
+  }
+  50% {
+    color: #FF7A59;
+  }
+  75% {
+    color: #00BDA5;
+  }
+  100% {
+    color: #6A78D1;
+  }
+}
+
+/* @keyframes zoomout {
+  from {
+    background-size: 40%;
+  }
+  to {
+    background-size: 10%;
+  }
+}
+ */
+
+.picture1{
+max-width: 90%;
+height:auto;
+
+}
+#main{
+  background:white;
+  height: 1000px;
+}
+#about{
+width: 100%;
+height: 1500px;
+
+}
+
+
+.container{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.column2{
+text-align: right;
+max-width: 40%;
+height: 350px;
+
+
+}
+#picture2{
+max-width: 90%;
+height: auto;
+}
+
+#head2{
+text-align: start;
+color: black;
+}
+#para{
+  color: black;
+  text-align: start;
+  margin: 0px;
+padding: 15px 3px;
+
+}
+
+#hd2{
+  position: absolute;
+  width: 30%;
+  height: 160px;
+  left: 82px;
+  top: 1300px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 121px;
+  
+  color: #000000;
+
+}
+.colum1{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 25%;
+  height: 200px;
+  left: 100px;
+  top: 1400px;
+  
+  border: 2px solid #000000
+
+}
+.colum2{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 25%;
+  height: 200px;
+  left: 450px;
+  top: 1400px;
+  
+  border: 2px solid #000000
+
+}
+.colum3{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 25%;
+  height: 200px;
+  left: 800px;
+  top: 1400px;
+  
+  border: 2px solid #000000
+ 
+
+}
+
+
+.colum1,.colum2,.colum3,p{
+  
+color: black;
+padding: 8px;
+
+}
+footer{
+  position: absolute;
+  width:100%;
+  top: 1750px;
+  
+  background: #000000;
+
+}
+#foot{
+text-align: center;
+
+
+}
+#fname{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 60%;
+  height: 35px;
+  left: 230px;
+  top:80px;
+  
+  border: 1px solid #FFFFFF;
+    
+
+}
+#lname{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 60%;
+  height: 35px;
+  left: 230px;
+  top:140px;
+  
+  border: 1px solid #FFFFFF;
+
+
+}
+#email{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 60%;
+  height: 35px;
+  left: 230px;
+  top:200px;
+  
+  border: 1px solid #FFFFFF;
+
+
+}
+#reason{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 60%;
+  height: 35px;
+  left: 230px;
+  top:260px;
+  
+  border: 1px solid #FFFFFF;
+
+
+}
+#submit{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 10%;
+  height: 35px;
+  left: 230px;
+  top:320px;
+  
+  border: 1px solid #FFFFFF;
+  color: #000000;
+
+
+
+}
+
+
+@media only screen and (max-width: 470px){
+  
+  #head1{
+    font-size:60px;
+    margin: 0px;
+    padding: 15px 3px;
+    
+    }
+    .picture1{
+    max-width: 100%;
+    height:auto;
+    
+    }
+    .column2{
+      text-align: right;
+      width: 100%;
+     height: 300px;
+    
+      
+      }
+      #picture2{
+      width: 100%;
+        height: 300px;
+        }
+     
+       }
+       
+       
+
+
+
+
